@@ -1,0 +1,14 @@
+{
+  "name": "bozorcha",
+  "version": "1.0.0",
+  "description": "Bozorcha — ko'p sotuvchili onlayn marketplace (xaridor, sotuvchi va admin qismlari bilan)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --no-warnings server.js",
+    "seed": "node --no-warnings db.js --reseed"
+  },
+  "engines": {
+    "node": ">=22.5"
+  },
+  "license": "MIT"
+}

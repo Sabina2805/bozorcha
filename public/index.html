@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="uz">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bozorcha — onlayn marketplace</title>
+  <meta name="description" content="Bozorcha: minglab mahsulotlar, ishonchli sotuvchilar, tez yetkazib berish.">
+  <link rel="stylesheet" href="/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛍️</text></svg>">
+</head>
+<body>
+  <header class="top">
+    <div class="wrap bar">
+      <a href="#/" class="logo">🛍️ Bozorcha</a>
+      <a href="#/catalog" class="btn ghost cat-btn">☰ Katalog</a>
+      <form id="search" class="search" role="search">
+        <input id="q" type="search" placeholder="Mahsulotlarni qidirish…" aria-label="Qidiruv" autocomplete="off">
+        <button type="submit" aria-label="Qidirish">🔍</button>
+      </form>
+      <nav id="nav" class="nav"></nav>
+    </div>
+  </header>
+  <main id="app" class="wrap" aria-live="polite"></main>
+  <footer class="foot">
+    <div class="wrap">
+      <span>© <span id="year"></span> Bozorcha</span>
+      <span>Sotuvchi bo'lish: <a href="#/register?role=seller">do'kon oching</a></span>
+    </div>
+  </footer>
+  <div id="toast" class="toast" role="status"></div>
+  <script src="/app.js"></script>
+</body>
+</html>
